@@ -1,0 +1,1 @@
+python p1_example.py testmap.txt s t

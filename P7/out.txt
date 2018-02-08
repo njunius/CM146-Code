@@ -1,0 +1,66 @@
+metaD.lp:67:27-35: info: atom does not occur in any rule head:
+  scc(C,A)
+
+metaD.lp:67:57-66: info: atom does not occur in any rule head:
+  scc(C,A')
+
+metaD.lp:68:27-35: info: atom does not occur in any rule head:
+  scc(C,A)
+
+metaD.lp:68:57-66: info: atom does not occur in any rule head:
+  scc(C,A')
+
+metaD.lp:70:27-35: info: atom does not occur in any rule head:
+  scc(C,A)
+
+metaD.lp:71:27-35: info: atom does not occur in any rule head:
+  scc(C,A)
+
+metaD.lp:73:15-23: info: atom does not occur in any rule head:
+  scc(#X0,#P1)
+
+metaD.lp:73:31-39: info: atom does not occur in any rule head:
+  scc(C,A)
+
+metaD.lp:75:25-33: info: atom does not occur in any rule head:
+  scc(C,A)
+
+metaD.lp:78:58-70: info: atom does not occur in any rule head:
+  not scc(C,L)
+
+metaD.lp:79:62-70: info: atom does not occur in any rule head:
+  scc(C,L)
+
+metaD.lp:83:8-16: info: atom does not occur in any rule head:
+  scc(C,A)
+
+metaO.lp:71:37-50: info: atom does not occur in any rule head:
+  minimize(J,S)
+
+metaO.lp:71:87-99: info: atom does not occur in any rule head:
+  prefer(A,A')
+
+metaO.lp:74:93-105: info: atom does not occur in any rule head:
+  prefer(A,A')
+
+metaO.lp:75:72-84: info: atom does not occur in any rule head:
+  prefer(A',A)
+
+metaO.lp:75:86-102: info: atom does not occur in any rule head:
+  not prefer(A,A')
+
+metaO.lp:77:98-110: info: atom does not occur in any rule head:
+  prefer(A',A)
+
+metaO.lp:77:112-128: info: atom does not occur in any rule head:
+  not prefer(A,A')
+
+
+. . _ _ . . .  1 - - - - - -  2 2 2 2 2 2 2  - - - - 3 3 3 
+. W W . . a .  1 - - - - - -  2 - - - - 2 2  - - - - 3 - 3 
+. W W W . . .  1 - - - - - -  2 - - - - 2 2  - - - - 3 3 3 
+. W W W W . .  1 - - - - - -  2 - - - - 2 2  - - - - - - 3 
+. . g W W W .  1 1 1 - - - -  2 2 - - - - -  - - - - - - 3 
+W W W W W W .  - - - - - - -  - - - - - - -  - - - - - - 3 
+W W W W W W .  - - - - - - -  - - - - - - -  - - - - - - 3 
+   
